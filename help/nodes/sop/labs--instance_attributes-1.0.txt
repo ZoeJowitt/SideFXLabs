@@ -5,7 +5,7 @@
 
 = Labs Instance Attributes =
 
-"""Builds and manages instance-related attributes for geometry instancing workflows."""
+""" Builds and manages instance-related attributes for geometry instancing workflows. """
 
 This node prepares geometry for instancing by creating, modifying, and randomizing common instance attributes such as variant selection, scale, and rotation.
 
@@ -140,15 +140,15 @@ Optional visualization tools are included to preview instance transforms and var
 
     Spin Amount:
         #id: spin_uniform
-        Spin amount used in Uniform mode.
+        Spin amount used in __Uniform__ mode.
         
     Spin Amount Min:
         #id: spin_min
-        Minimum spin value used in Random mode.
+        Minimum spin value used in __Random__ mode.
         
     Spin Amount Max:
         #id: spin_max
-        Maximum spin value used in Random mode.
+        Maximum spin value used in __Random__ mode.
 
     Random Seed:
         #id: spinrandseed
@@ -156,7 +156,7 @@ Optional visualization tools are included to preview instance transforms and var
         
     Spin Amount Attribute:
         #id: spin_attrib
-        Attribute used to define spin amount when From Attribute is selected.
+        Attribute used to define spin amount when __From Attribute__ is selected.
         
     Randomize Rotation in 3D:
         #id: rand3drot

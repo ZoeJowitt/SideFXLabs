@@ -1,10 +1,9 @@
-= Labs HF Combine Masks =
-
-#type: node
-#context: sop
+#type:     node
+#context:  sop
 #internal: labs::hf_combine_masks
-#icon: hf_combine_masks
-#tags: sidefxlabs
+#icon:     /labs_icons/sidefx_labs_default.svg
+
+= Labs HF Combine Masks =
 
 """ Simplifies the process of blending masks together in Heightfields """
 
@@ -12,19 +11,31 @@ This node blends several named height field layers together using several blendi
 
 @parameters
     Flood:
+        #id: bFlood
         Enabling this will start the blended mask with a value of 1. Useful when wanting to subtract layers from a full mask.
+
     Source:
+        #id: srcname1
         The layer to be used as the starting canvas.
     
 
     == ==
     Layer:
+        #id: layername_#
         The name of the heightfield layer to be used for blending in this step.
+
     Clamp 0-1:
+        #id: clamp_#
         Clamps this layer's values between 0-1 before blending. This help prevent out of scope values.
+
     Pre-Process:
+        #id: method_#
         The type of pre-processing to be applied to this layer before blending it.
+
     Amount:
+        #id: radius_#
         The amount of pre-processing to be applied to this layer before blending it.
+
     Layer Mode:
+        #id: mode_#
         The blending mode which should be used when adding this layer to the canvas.

@@ -6,7 +6,7 @@
 
 = Labs Hexagon Grid =
 
-"""Generates a hexagonal grid."""
+""" Generates a hexagonal grid. """
 
 This node generates a hexagonal point grid that can be filled with hexagonal primitives. You can also change the radius of the hexagon and its orientation, which can be either Pointy Top or Flat Top.
 
@@ -33,19 +33,19 @@ This node generates a hexagonal point grid that can be filled with hexagonal pri
         Determines the size of the point grid.
     
     Horizontal Min:
-        #id: q1min
+        #id: qmin
         The minimum coordinate of the horizontal axis of the rectangle.
     
     Horizontal Max:
-        #id: q1max
+        #id: qmax
         The maximum coordinate of the horizontal axis of the rectangle.
     
     Vertical Min:
-        #id: r2min
+        #id: rmin
         The minimum coordinate of the vertical axis of the rectangle.
         
     Vertical Max:
-        #id: r2max
+        #id: rmax
         The maximum coordinate of the vertical axis of the rectangle.
 
     Axes:

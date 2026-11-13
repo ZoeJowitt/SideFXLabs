@@ -6,7 +6,7 @@
 
 = Labs Impostor Baker =
 
-"""Generates impostor texture atlases from geometry."""
+""" Generates impostor texture atlases from geometry. """
 
 This node captures a mesh from multiple viewing angles and bakes the result into texture atlases for use in real-time engines and lightweight rendering workflows.
 

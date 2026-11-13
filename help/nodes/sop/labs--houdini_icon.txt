@@ -1,11 +1,11 @@
-#type:		node
-#context:	sop
-#internal:	labs::houdini_icon
-#icon:		houdini_icon
+#type:	   node
+#context:  sop
+#internal: labs::houdini_icon
+#icon:     /labs_icons/sidefx_labs_default.svg
 
 = Labs Houdini Icon =
 
-"""Generates a geometric representation of the Houdini icon."""
+""" Generates a geometric representation of the Houdini icon. """
 
 This node outputs a clean, procedural mesh of the Houdini icon.
 

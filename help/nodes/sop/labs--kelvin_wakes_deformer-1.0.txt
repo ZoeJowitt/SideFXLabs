@@ -1,17 +1,16 @@
 #type:     node
 #context:  sop
 #internal: labs::kelvin_wakes_deformer::1.0
-#icon:     SOP/labs::kelvin_wakes_deformer::1.0
+#icon:     /labs_icons/sidefx_labs_default.svg
 #since:    19.5
 
-= Kelvin Wakes Deformer =
+= Labs Kelvin Wakes Deformer =
 
-"""Deforms input geometry in the shape of water wakes that form behind objects
-moving at a constant speed."""
+""" Deforms input geometry in the shape of water wakes that form behind objects moving at a constant speed. """
 
 [Image:/images/kelvin_wakes_deformer.png]
 
-_Kelvin wakes_ refer to the steady-state wave patterns that develop behind
+_Kelvin wakes_ refer to the steady-state wave patterns that develop behind 
 objects moving on water at a constant speed. Shapes of these wakes do not
 change, but they are dragged continually by motion of the floating body. This
 node generates such wakes; it can be used to cheaply emulate waves from a ship

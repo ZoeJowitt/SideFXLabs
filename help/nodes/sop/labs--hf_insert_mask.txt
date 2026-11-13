@@ -1,10 +1,9 @@
-= Labs HF Insert Mask =
-
-#type: node
-#context: sop
+#type:     node
+#context:  sop
 #internal: labs::hf_insert_mask
-#icon: hf_insert_mask
-#tags: sidefxlabs, terrain
+#icon:     /labs_icons/sidefx_labs_default.svg
+
+= Labs HF Insert Mask =
 
 """ Allows you to insert a layer from another heightfield. """
 
@@ -12,8 +11,13 @@ This node inserts a mask from a second height field into your primary height fie
 
 @parameters
     Inserts:
+        #id: folder0
         Specify the number of new layers you would like to insert into the primary heightfield.
+
     Source:
+        #id: src_name_#
         The name of the Layer to be inserted from the secondary heightfield.
+
     New Name:
+        #id: dstname_#
         Optional new name for the to be inserted layer.
